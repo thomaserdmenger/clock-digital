@@ -11,8 +11,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.container {
+  border: 5px solid hsla(0, 0%, 100%, 0.8);
+  border-radius: 15px;
+  padding: 5rem;
 }
 
 .time {
   font-size: 6rem;
+  color: hsla(0, 0%, 100%, 0.8);
 }
