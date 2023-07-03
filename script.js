@@ -17,12 +17,11 @@ const getTime = () => {
   return `${hours}:${minutes}:${seconds}`
 }
 
-console.log(getTime())
-
 // render time
 const renderTime = () => {
   const time = document.querySelector('.time')
   time.textContent = getTime()
 }
 
-renderTime()
+// update time secondly
+setInterval(renderTime, 1000)
