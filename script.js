@@ -18,3 +18,11 @@ const getTime = () => {
 }
 
 console.log(getTime())
+
+// render time
+const renderTime = () => {
+  const time = document.querySelector('.time')
+  time.textContent = getTime()
+}
+
+renderTime()
