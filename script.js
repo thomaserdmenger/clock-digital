@@ -26,4 +26,5 @@ const renderTime = () => {
 }
 
 // update time secondly
+renderTime()
 setInterval(renderTime, 1000)
